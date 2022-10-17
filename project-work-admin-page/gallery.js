@@ -27,7 +27,7 @@ const fillTheCarousel = data => {
     <img src="https://picsum.photos/600/300"
      class="d-block w-100" style="height: 50vh; object-fit:cover"
      data-bs-interval="3000" alt="...">
-          <div class="carousel-caption d-none d-md-block">
+          <div class="carousel-caption d-none d-md-block bg-gradient">
             <h5>${product.name}</h5>
             <p>${product.description}</p>
           </div>
